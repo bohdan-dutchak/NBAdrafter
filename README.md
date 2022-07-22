@@ -1,8 +1,7 @@
 # NBAdrafter
 This is my personal project for the Machine Learning course at NYU Tandon School of Engineering.\
 *Performed by Dutchak Bohdan* :sleeping:
-<br><br><br>
-
+<br><br>
 
 
 
@@ -17,8 +16,7 @@ Here will be description of the project generally, also pipelines, technologies 
 
 **Soon...**
 </details>
-<br><br><br>
-
+<br>
 
 
 
@@ -26,7 +24,7 @@ Here will be description of the project generally, also pipelines, technologies 
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/main/README.md#week-1)**.
+Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-1)**.
 
 <details>
   <summary>
