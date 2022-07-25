@@ -8,7 +8,8 @@ This is my personal project for the Machine Learning course at NYU Tandon School
 
 
 ## Description
-Here will be description of the project generally, also pipelines, technologies explained etc etc.
+Here will be description of the project generally, also pipelines, technologies explained etc etc.\
+Some of the parts will be written on Python3. The reasons of it is the variety of different libraries and tools it has to collect, process and plot data. Also I feel more confident with this language.
 <details>
   <summary>
     Expand
@@ -35,15 +36,23 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
 
 <details>
 <summary><h3>Week 1</h3></summary>
-  This one is the pilot week, I will only try to cope with everything.    
+  This one is the pilot week, I will try to cope with everything.    
   
 #### Work done
-  - Read the book
-  - slept enough
+  - 1-2 chptrs ISLR
+  - Watched the lecture
 #### Problems faced
-  -
-#### Something else
-  -      
+  - 
+#### Next steps
+  - 
+
+#### Brief list on notes for this week
+  - There are two paradigms of estimation of the model:
+    1. Prediction (focusing of the result i.e. the output variable)
+    2. Inference (providing analytics of the different trends and relations between variables)
+  - Regarding to the paradigms, there is a trade-off between more flexible (Deep learning, SVM, Boosting, Bagging, GAM) and more interpretable models (Lasso, OLS)
+  - Learning of the model can be supervised or unsupervised (more rarelly semi-supervised), which depends on the existence of the response variable.
+  - 
 </details>
 
 
