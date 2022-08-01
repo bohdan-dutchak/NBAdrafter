@@ -41,18 +41,21 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
 #### Work done
   - 1-2 chptrs ISLR
   - Watched the lecture
+  - Introduction to ML
 #### Problems faced
-  - 
+  - None actually, but it is just a beggining
 #### Next steps
-  - 
+  - Complete first 4 weeks and start the project.
 
-#### Brief list on notes for this week
+#### Brief list on notes for this week 
   - There are two paradigms of estimation of the model:
-    1. Prediction (focusing of the result i.e. the output variable)
+    1. Prediction (focusing on the result i.e. the output variable)
     2. Inference (providing analytics of the different trends and relations between variables)
-  - Regarding to the paradigms, there is a trade-off between more flexible (Deep learning, SVM, Boosting, Bagging, GAM) and more interpretable models (Lasso, OLS)
+  - Regarding to the paradigms, there is a trade-off between more flexible (Deep learning, SVM, Boosting, Bagging, GAM) and more interpretable models (Lasso, OLS). The more flexible model is, the bigger *variance* it has and vice versa with *bias*.
   - Learning of the model can be supervised or unsupervised (more rarelly semi-supervised), which depends on the existence of the response variable.
-  - 
+  - Very low MSE on training data may indicate overfitting
+  - bias-variance trade-off is an estimation method of test MSE by result train variable.
+  - KNN is the model with optionally chosen K - the number of nearest neighbors. The smaller K is, the more flexible model.
 </details>
 
 
