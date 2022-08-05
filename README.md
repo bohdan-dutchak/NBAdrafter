@@ -22,7 +22,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 2](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-2)**.
+Current progress: **[Week 4](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-4)**.
 
 <details>
   <summary>
@@ -112,16 +112,18 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
 
 <details>
 <summary><h3>Week 3</h3></summary>
-  Empty yet
+  SVM
   
 #### Work done
-  - 
+  - Watched the [lecture](https://www.youtube.com/watch?v=_PwhiWxHK8o) aboyt SVM
+  - Some useful [videos](https://www.youtube.com/watch?v=efR1C6CvhmE) about SVM
 #### Problems faced
-  - 
+  - Generally I need more examples where to use SVM, but I'm good
 #### Next steps
-  -      
+  - It's time to complete EDA and beggin with the model.
 #### Brief list on notes for this week
-  - 
+  - SVM it used in the cases, where there is wide boundary area between classes, also when it is impossible to set the linear boundary between classes.
+  
 </details>
 
 
