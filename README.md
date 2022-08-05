@@ -6,7 +6,6 @@ This is my personal project for the Machine Learning course at NYU Tandon School
 
 
 
-
 ## Description
 Here will be description of the project generally, also pipelines, technologies explained etc etc.\
 Some of the parts will be written on Python3. The reasons of it is the variety of different libraries and tools it has to collect, process and plot data. Also I feel more confident with this language.
@@ -21,11 +20,9 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 
 
-
-
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-2)**.
+Current progress: **[Week 2](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-2)**.
 
 <details>
   <summary>
@@ -39,7 +36,7 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
   This one is the pilot week, I will try to cope with everything.    
   
 #### Work done
-  - 1-2 chptrs ISLR
+  - ISLR chptrs 1-2
   - Watched the lecture
   - Introduction to ML
   - [Cool vid about bias and variance](https://www.youtube.com/watch?v=EuBBz3bI-aA)
@@ -48,11 +45,13 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
 #### Next steps
   - Complete first 4 weeks and start the project.
 
-#### Brief list on notes for this week 
+#### Brief list of notes for this week 
   - There are two paradigms of estimation of the model:
     1. Prediction (focusing on the result i.e. the output variable)
     2. Inference (providing analytics of the different trends and relations between variables)
-  - Regarding to the paradigms, there is a trade-off between more flexible (Deep learning, SVM, Boosting, Bagging, GAM) and more interpretable models (Lasso, OLS). The more flexible model is, the bigger *variance* it has and vice versa with *bias*.
+  - Regarding to the paradigms, there is a trade-off between more flexible (Deep learning, SVM, Boosting, Bagging, GAM) and more interpretable models (Lasso, OLS). The more flexible model is, the bigger *variance* it has and vice versa with *bias*.\
+  Bias is kinda squared error, the worse model fits the training data, the bigger bias is.\
+  Variance is the difference in fits between datasets.
   - Learning of the model can be supervised or unsupervised (more rarelly semi-supervised), which depends on the existence of the response variable.
   - Very low MSE on training data may indicate overfitting.
   - bias-variance trade-off is an estimation method of test MSE by result train variable.
@@ -63,21 +62,50 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
 
 <details>
 <summary><h3>Week 2</h3></summary>
-  Empty yet
+
+Week 2 took me a little, I should speed up.\
+Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
   
 #### Work done
   - [Confounding explained](https://www.youtube.com/watch?v=bcfg9kcxeuU)
+  - ISLR chptr 4
+  - Watched the lecture
 #### Problems faced
   - In chapter 2 it is said, that it is hard to compute model accuracy on the testing data, since sometimes there is no test data. Why can't we just take a 30% of it as a data for testing. So we don't train model on this part.
-  - 
+  - Didn't get the baseline problem when we use k-1 classes. 
 #### Next steps
-  - 
+  - I have a cool idea about the subject of my project, but I have to validate that it is reasonable to make it.
+  - Also I should speed up reading the book.
 
-#### Brief list on notes for this week   
+#### Brief list of notes for this week   
   - You can use OLS to make classifier with 2 classes, but it is not recommended
   - In order to decrease risks of false positive we can manually decrease the threshold of the probability from 0.5 to i.e. 0.1
   - Confounding is a bias that leads to the wrong relation dependencies between some variable and result. Here we have example of probability of default given the person is student or not. Confounding misleads us to the conclusion that students are more risky creditee, but those are so only when the credit balance is unknown. Otherwise non-student is more risky.
-  - 
+  - While making a MLR there is choice between k-1 classes estimation with the baseline, but there are pitfalls there, so *softmax* is a better decision. It estimates the class by taking the biggest probabillity of all. The sum of probabillities are always 1.
+  - Two types of errors:
+    * Type 1 (false negative) - rejecting true $h_0$. We must avoid this error
+    * Type 2 (false positive) - accepting $h_1$. That is alright, no serious consequences if the $h_0$ is formulated properly.
+  - The higher the ratio of parameters p to number of samples n, the more we expect this overfitting to play a role
+  - **Sensitivity** -  the percentage of correctly predicted classes in relation to all members of the class $(sens = \frac{1}{\Sigma true} \Sigma \hat{true})$
+  - **Specificity** - percentage of non-defaulters that are correctly identified $(spec = 1 - \frac{\Sigma\hat{true}}{\Sigma true})$
+  - The decision to which type of error to follow has to be based on the domain.
+
+|Confusion matrix|        |True |class|       |
+|-------------|--------|-----|-----|-------|
+|             |        |Neg  |Pos  |*Total*|
+|**Predicted**|Negative|TN   |FN   |$\hat{N}$|
+|**class**    |Positive|FP   |TP   |$\hat{P}$|
+|             |*Total* |N    |P    |Y    |
+
+|Name|Definition|Synonyms|
+|---|---|---|
+|False pos. rate| $FP/N$|Type 1 error, 1 - Specificity|
+|True pos. rate| $TP/P$|1 - Type 2 error, sensitivity, recall, error|
+|Pos. pred value| $TP/\hat{P}$|precision|
+|Neg. pred value| $TN/\hat{N}$| |
+
+  - Using Bayes classifier we need to choose density function. LDA or QDA can help. The first one has smaller variance, but bigger bias. We should not use it in case of relatively small training set.
+  - Naiive Bayes can be used when reducing the variance is important, so p is relatively large or n is small.
 </details>
 
 
@@ -89,9 +117,11 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
 #### Work done
   - 
 #### Problems faced
-  -
-#### Something else
+  - 
+#### Next steps
   -      
+#### Brief list on notes for this week
+  - 
 </details>
 
 
@@ -104,8 +134,10 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
   - 
 #### Problems faced
   - 
-#### Something else
+#### Next steps
   -      
+#### Brief list on notes for this week
+  - 
 </details>
 
 
@@ -117,10 +149,13 @@ Current progress: **[Week 1](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
 #### Work done
   - 
 #### Problems faced
-  -
-#### Something else
+  - 
+#### Next steps
   -      
+#### Brief list on notes for this week
+  - 
 </details>
+
 </details>
 :blue_square::blue_square::blue_square::blue_square:<br>
 :yellow_square::yellow_square::yellow_square::yellow_square:
