@@ -22,7 +22,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 4](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-4)**.
+Current progress: **[Week 5](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-5)**.
 
 <details>
   <summary>
@@ -123,23 +123,29 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
   - It's time to complete EDA and beggin with the model.
 #### Brief list on notes for this week
   - SVM it used in the cases, where there is wide boundary area between classes, also when it is impossible to set the linear boundary between classes.
-  
+
 </details>
 
 
 
 <details>
 <summary><h3>Week 4</h3></summary>
-  Empty yet
+  Pointing out the project idea and collecting data (with python). <br>
+  The execution time for collecting each individual player performance for 20 seasons (~10000 observations) is approximately 10 minutes.
   
 #### Work done
-  - 
+  - [Cool article about EDA](https://towardsdatascience.com/a-gentle-introduction-to-exploratory-data-analysis-f11d843b8184)
+  - [Example of an EDA](https://github.com/dformoso/sklearn-classification/blob/master/Data%20Science%20Workbook%20-%20Census%20Income%20Dataset.ipynb)
+  - Read some papers on the NYU CMS (partic. about EDA)
+  - Watched the lecture
 #### Problems faced
-  - 
+  - Had some troubles with collecting of data, but it works fine now.
+  - Also I don't think, I could have parse all this data with R, so I'm sorry for using it in this part of the project.
 #### Next steps
-  -      
+  - Completing EDA
+  - Completing some overdued assignments ;)
 #### Brief list on notes for this week
-  - 
+  - Data collecting is pretty interesting.
 </details>
 
 
