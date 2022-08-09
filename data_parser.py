@@ -76,7 +76,10 @@ def process_data(df : pd.DataFrame, year):
     """
     df = df.drop(columns=['Birth Date', 'College'])
     df = df.drop(df.columns[4], axis=1)
-    df['Ht'] = df['Ht'].apply(lambda x: x.replace('-', '.'))
+    df['Ht'] = df['Ht'].apply(lambda x: x.split('-'))
+    df['Ht'] = df['Ht'].apply(lambda x: round(int(x[0])*30.48+int(x[1])*2.54), 2)
+    df['Wt'] = df['Wt'].apply(lambda x: round(int(x) * 0.45359237), 2)
+    
     df['Exp'] = df['Exp'].apply(lambda x: x.replace('R', '0'))
     df['Season'] = year
     return df
