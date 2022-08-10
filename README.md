@@ -22,7 +22,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 5](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-5)**.
+Current progress: **[Week 6](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-6)**.
 
 <details>
   <summary>
@@ -152,16 +152,18 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
 
 <details>
 <summary><h3>Week 5</h3></summary>
-  Empty yet
+  EDA is ready!
   
 #### Work done
-  - 
+  - Completed EDA
 #### Problems faced
-  - 
+  - Hard to decide which feature to choose, since I am afraid of overfitting the model
+  - R is tough
 #### Next steps
-  -      
+  - Completing some more assignments
+  - Watched the lecture
 #### Brief list on notes for this week
-  - 
+  - None
 </details>
 
 </details>
