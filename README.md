@@ -14,7 +14,30 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
     Expand
   </summary>
 
-**Soon...**
+---
+`data_parser.py`
+  My python script to collect data from [NBA Reference](https://www.basketball-reference.com/). The data is about all players performance from season to season.
+  Functions:
+  - `get_teams_urls(year:int)` - returns list of subdirectories of URL of all teams of particular season ([Like this one](https://www.basketball-reference.com/teams/BRK/2022.html)), since through 20 years teams changed.
+  - `get_column_names(table)` - returns list of column names of Roster and Per Game tables
+  - `get_per_game(url)` - returns pd.DataFrame with data collected from Per Game table
+  - `get_roster(url)` - returns pd.DataFrame with data collected from Roster table
+  - `process_data(df : pd.DataFrame, year)` - performs some primary data processing such as converting height from feet to meters and pounds to kilograms
+  - `append_data(season_data, team)` - concatenates team data into one seaon dataframe.
+
+---
+`data_merger.py`
+  Simple script, that concatenates all season's data into one dataframe.
+
+---
+`config.py`
+  Configurations.
+  - `start_year` - beginning year, from which to collect data.
+  - `end_year` - last year, from which to collect data.
+  - `url` - Scheme and domains of the main URL.
+  - `season_url` - Season URL for adding year and particular team to get page with data tables.
+---
+
 </details>
 <br>
 
@@ -22,7 +45,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 6](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-6)**.
+Current progress: **[Week 7](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-7)**.
 
 <details>
   <summary>
@@ -41,7 +64,7 @@ Current progress: **[Week 6](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
   - Introduction to ML
   - [Cool vid about bias and variance](https://www.youtube.com/watch?v=EuBBz3bI-aA)
 #### Problems faced
-  - None actually, but it is just a beggining
+  - None actually, but it is just a beginning
 #### Next steps
   - Complete first 4 weeks and start the project.
 
@@ -52,7 +75,7 @@ Current progress: **[Week 6](https://github.com/bohdan-dutchak/NBAdrafter/blob/m
   - Regarding to the paradigms, there is a trade-off between more flexible (Deep learning, SVM, Boosting, Bagging, GAM) and more interpretable models (Lasso, OLS). The more flexible model is, the bigger *variance* it has and vice versa with *bias*.\
   Bias is kinda squared error, the worse model fits the training data, the bigger bias is.\
   Variance is the difference in fits between datasets.
-  - Learning of the model can be supervised or unsupervised (more rarelly semi-supervised), which depends on the existence of the response variable.
+  - Learning of the model can be supervised or unsupervised (more rarely semi-supervised), which depends on the existence of the response variable.
   - Very low MSE on training data may indicate overfitting.
   - bias-variance trade-off is an estimation method of test MSE by result train variable.
   - KNN is the model with optionally chosen K - the number of nearest neighbors. The smaller K is, the more flexible model.
@@ -81,7 +104,7 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
   - You can use OLS to make classifier with 2 classes, but it is not recommended
   - In order to decrease risks of false positive we can manually decrease the threshold of the probability from 0.5 to i.e. 0.1
   - Confounding is a bias that leads to the wrong relation dependencies between some variable and result. Here we have example of probability of default given the person is student or not. Confounding misleads us to the conclusion that students are more risky creditee, but those are so only when the credit balance is unknown. Otherwise non-student is more risky.
-  - While making a MLR there is choice between k-1 classes estimation with the baseline, but there are pitfalls there, so *softmax* is a better decision. It estimates the class by taking the biggest probabillity of all. The sum of probabillities are always 1.
+  - While making a MLR there is choice between k-1 classes estimation with the baseline, but there are pitfalls there, so *softmax* is a better decision. It estimates the class by taking the biggest probability of all. The sum of probabilities are always 1.
   - Two types of errors:
     * Type 1 (false negative) - rejecting true $h_0$. We must avoid this error
     * Type 2 (false positive) - accepting $h_1$. That is alright, no serious consequences if the $h_0$ is formulated properly.
@@ -177,8 +200,40 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
         * Decision Trees
   * **Dimensionality Reduction**: Project input data into a lower-dimensional feature space (i.e. PCA)
 
-  
+</details>
 
+
+
+<details>
+<summary><h3>Week 6</h3></summary>
+  KNN and deadlines ;(
+  
+#### Work done
+  - [Amazing article about KNN](https://machinelearningmastery.com/k-nearest-neighbors-for-machine-learning/)
+  - Watched the lecture
+#### Problems faced
+  - R is tough
+#### Next steps
+  - Completing some more assignments
+  - Fitting Model
+#### Brief list on notes for this week
+  - None
+</details>
+
+
+
+<details>
+<summary><h3>Week 7</h3></summary>
+  soon
+  
+#### Work done
+  - 
+#### Problems faced
+  - R is tough
+#### Next steps
+  - 
+#### Brief list on notes for this week
+  - 
 </details>
 
 </details>
