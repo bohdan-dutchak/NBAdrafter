@@ -1,0 +1,512 @@
+                                      Df Sum_Sq Mean_Sq   F_value   Pr(>F)    
+Ht                                     1  17441   17441 77544.999   2e-16 ***
+Wt                                     1    789     789  3509.624   2e-16 ***
+X3PA                                   1    167     167   743.003   2e-16 ***
+X3P                                    1      6       6    27.777 1.39e-07 ***
+ORB                                    1    159     159   708.735   2e-16 ***
+DRB                                    1     10      10    44.906 2.17e-11 ***
+TRB                                    1      0       0     0.006 0.939728    
+AST                                    1    207     207   918.359   2e-16 ***
+BLK                                    1     15      15    65.365 6.91e-16 ***
+Ht:Wt                                  1     75      75   332.058   2e-16 ***
+Ht:X3PA                                1     94      94   416.794   2e-16 ***
+Wt:X3PA                                1      3       3    13.375 0.000256 ***
+Ht:X3P                                 1      0       0     1.327 0.249341    
+Wt:X3P                                 1      0       0     0.446 0.504413    
+X3PA:X3P                               1      7       7    28.966 7.53e-08 ***
+Ht:ORB                                 1    111     111   491.416   2e-16 ***
+Wt:ORB                                 1     56      56   247.175   2e-16 ***
+X3PA:ORB                               1      0       0     0.360 0.548593    
+X3P:ORB                                1      1       1     6.567 0.010403 *  
+Ht:DRB                                 1     32      32   143.936   2e-16 ***
+Wt:DRB                                 1      0       0     1.175 0.278407    
+X3PA:DRB                               1     12      12    53.509 2.76e-13 ***
+X3P:DRB                                1      1       1     4.841 0.027807 *  
+ORB:DRB                                1      3       3    13.271 0.000271 ***
+Ht:TRB                                 1      0       0     1.139 0.285927    
+Wt:TRB                                 1      0       0     0.098 0.754655    
+X3PA:TRB                               1      0       0     0.136 0.712466    
+X3P:TRB                                1      1       1     4.310 0.037916 *  
+ORB:TRB                                1      3       3    12.734 0.000361 ***
+DRB:TRB                                1      0       0     1.046 0.306564    
+Ht:AST                                 1     71      71   315.551   2e-16 ***
+Wt:AST                                 1      1       1     3.323 0.068343 .  
+X3PA:AST                               1      0       0     1.329 0.248967    
+X3P:AST                                1      1       1     6.583 0.010310 *  
+ORB:AST                                1      6       6    24.697 6.81e-07 ***
+DRB:AST                                1      8       8    35.498 2.63e-09 ***
+TRB:AST                                1      0       0     0.003 0.954988    
+Ht:BLK                                 1     55      55   242.490   2e-16 ***
+Wt:BLK                                 1     14      14    62.918 2.37e-15 ***
+X3PA:BLK                               1      1       1     6.402 0.011411 *  
+X3P:BLK                                1      0       0     0.009 0.926285    
+ORB:BLK                                1      0       0     0.541 0.461919    
+DRB:BLK                                1      0       0     1.599 0.206050    
+TRB:BLK                                1      0       0     0.012 0.914346    
+AST:BLK                                1      1       1     3.487 0.061874 .  
+Ht:Wt:X3PA                             1     86      86   383.010   2e-16 ***
+Ht:Wt:X3P                              1     13      13    57.534 3.60e-14 ***
+Ht:X3PA:X3P                            1     15      15    64.592 1.02e-15 ***
+Wt:X3PA:X3P                            1      0       0     0.728 0.393412    
+Ht:Wt:ORB                              1     65      65   289.767   2e-16 ***
+Ht:X3PA:ORB                            1      2       2     9.778 0.001771 ** 
+Wt:X3PA:ORB                            1      0       0     0.001 0.977005    
+Ht:X3P:ORB                             1      1       1     4.114 0.042549 *  
+Wt:X3P:ORB                             1      0       0     1.639 0.200446    
+X3PA:X3P:ORB                           1      1       1     2.337 0.126330    
+Ht:Wt:DRB                              1     10      10    45.900 1.31e-11 ***
+Ht:X3PA:DRB                            1      3       3    13.633 0.000223 ***
+Wt:X3PA:DRB                            1      3       3    11.968 0.000543 ***
+Ht:X3P:DRB                             1      0       0     0.673 0.412056    
+Wt:X3P:DRB                             1      1       1     5.027 0.024971 *  
+X3PA:X3P:DRB                           1     11      11    47.407 6.10e-12 ***
+Ht:ORB:DRB                             1     12      12    52.014 5.89e-13 ***
+Wt:ORB:DRB                             1      9       9    38.858 4.73e-10 ***
+X3PA:ORB:DRB                           1      1       1     3.411 0.064808 .  
+X3P:ORB:DRB                            1      0       0     0.167 0.683083    
+Ht:Wt:TRB                              1      1       1     4.221 0.039956 *  
+Ht:X3PA:TRB                            1      0       0     0.540 0.462451    
+Wt:X3PA:TRB                            1      0       0     0.383 0.535940    
+Ht:X3P:TRB                             1      1       1     2.455 0.117177    
+Wt:X3P:TRB                             1      0       0     0.421 0.516438    
+X3PA:X3P:TRB                           1      0       0     0.202 0.653307    
+Ht:ORB:TRB                             1      0       0     0.103 0.748544    
+Wt:ORB:TRB                             1      1       1     5.059 0.024515 *  
+X3PA:ORB:TRB                           1      0       0     0.127 0.721524    
+X3P:ORB:TRB                            1      2       2     9.128 0.002523 ** 
+Ht:DRB:TRB                             1      2       2     7.701 0.005528 ** 
+Wt:DRB:TRB                             1      2       2     7.015 0.008095 ** 
+X3PA:DRB:TRB                           1      0       0     1.809 0.178641    
+X3P:DRB:TRB                            1      1       1     3.609 0.057490 .  
+ORB:DRB:TRB                            1      1       1     2.974 0.084620 .  
+Ht:Wt:AST                              1     89      89   397.814   2e-16 ***
+Ht:X3PA:AST                            1     21      21    94.483   2e-16 ***
+Wt:X3PA:AST                            1      1       1     6.063 0.013822 *  
+Ht:X3P:AST                             1      1       1     2.411 0.120537    
+Wt:X3P:AST                             1      0       0     0.651 0.419611    
+X3PA:X3P:AST                           1      1       1     5.879 0.015339 *  
+Ht:ORB:AST                             1      2       2     8.828 0.002972 ** 
+Wt:ORB:AST                             1      2       2     7.771 0.005318 ** 
+X3PA:ORB:AST                           1      4       4    16.626 4.59e-05 ***
+X3P:ORB:AST                            1      0       0     0.090 0.764013    
+Ht:DRB:AST                             1      1       1     2.376 0.123267    
+Wt:DRB:AST                             1      0       0     0.028 0.867505    
+X3PA:DRB:AST                           1      7       7    30.792 2.94e-08 ***
+X3P:DRB:AST                            1      0       0     1.770 0.183405    
+ORB:DRB:AST                            1      4       4    15.792 7.12e-05 ***
+Ht:TRB:AST                             1      0       0     0.099 0.752588    
+Wt:TRB:AST                             1      0       0     0.008 0.929054    
+X3PA:TRB:AST                           1      0       0     0.063 0.802300    
+X3P:TRB:AST                            1      0       0     0.004 0.949750    
+ORB:TRB:AST                            1      1       1     4.339 0.037268 *  
+DRB:TRB:AST                            1      1       1     3.911 0.048011 *  
+Ht:Wt:BLK                              1      6       6    25.332 4.91e-07 ***
+Ht:X3PA:BLK                            1      0       0     0.474 0.491335    
+Wt:X3PA:BLK                            1      0       0     0.086 0.769175    
+Ht:X3P:BLK                             1      1       1     2.739 0.097980 .  
+Wt:X3P:BLK                             1      0       0     0.171 0.678954    
+X3PA:X3P:BLK                           1      1       1     5.805 0.016002 *  
+Ht:ORB:BLK                             1      3       3    12.312 0.000452 ***
+Wt:ORB:BLK                             1      1       1     6.519 0.010688 *  
+X3PA:ORB:BLK                           1      0       0     0.420 0.516907    
+X3P:ORB:BLK                            1      1       1     5.703 0.016957 *  
+Ht:DRB:BLK                             1      1       1     3.097 0.078486 .  
+Wt:DRB:BLK                             1      1       1     3.702 0.054374 .  
+X3PA:DRB:BLK                           1      1       1     3.359 0.066873 .  
+X3P:DRB:BLK                            1      2       2     6.790 0.009178 ** 
+ORB:DRB:BLK                            1      0       0     0.747 0.387533    
+Ht:TRB:BLK                             1      0       0     0.000 0.995259    
+Wt:TRB:BLK                             1      0       0     0.088 0.766360    
+X3PA:TRB:BLK                           1      0       0     0.064 0.799538    
+X3P:TRB:BLK                            1      0       0     0.858 0.354253    
+ORB:TRB:BLK                            1      0       0     0.243 0.622250    
+DRB:TRB:BLK                            1      1       1     3.565 0.059036 .  
+Ht:AST:BLK                             1      1       1     4.334 0.037390 *  
+Wt:AST:BLK                             1      0       0     0.590 0.442342    
+X3PA:AST:BLK                           1      1       1     3.487 0.061875 .  
+X3P:AST:BLK                            1      0       0     0.024 0.875974    
+ORB:AST:BLK                            1      1       1     3.206 0.073386 .  
+DRB:AST:BLK                            1      0       0     0.750 0.386627    
+TRB:AST:BLK                            1      0       0     0.556 0.455974    
+Ht:Wt:X3PA:X3P                         1      6       6    27.646 1.48e-07 ***
+Ht:Wt:X3PA:ORB                         1      0       0     0.006 0.939112    
+Ht:Wt:X3P:ORB                          1      1       1     6.253 0.012413 *  
+Ht:X3PA:X3P:ORB                        1      0       0     0.236 0.626994    
+Wt:X3PA:X3P:ORB                        1      0       0     1.307 0.253008    
+Ht:Wt:X3PA:DRB                         1      4       4    18.554 1.67e-05 ***
+Ht:Wt:X3P:DRB                          1      3       3    13.942 0.000190 ***
+Ht:X3PA:X3P:DRB                        1      1       1     5.858 0.015525 *  
+Wt:X3PA:X3P:DRB                        1      1       1     3.142 0.076352 .  
+Ht:Wt:ORB:DRB                          1     16      16    70.644   2e-16 ***
+Ht:X3PA:ORB:DRB                        1      1       1     2.255 0.133253    
+Wt:X3PA:ORB:DRB                        1      1       1     4.880 0.027194 *  
+Ht:X3P:ORB:DRB                         1      0       0     0.441 0.506451    
+Wt:X3P:ORB:DRB                         1      0       0     1.201 0.273146    
+X3PA:X3P:ORB:DRB                       1      2       2    10.973 0.000928 ***
+Ht:Wt:X3PA:TRB                         1      0       0     0.034 0.852836    
+Ht:Wt:X3P:TRB                          1      1       1     2.584 0.107998    
+Ht:X3PA:X3P:TRB                        1      0       0     0.856 0.354944    
+Wt:X3PA:X3P:TRB                        1      0       0     0.123 0.726122    
+Ht:Wt:ORB:TRB                          1      1       1     2.952 0.085788 .  
+Ht:X3PA:ORB:TRB                        1      1       1     2.314 0.128267    
+Wt:X3PA:ORB:TRB                        1      0       0     0.410 0.522086    
+Ht:X3P:ORB:TRB                         1      0       0     0.294 0.587635    
+Wt:X3P:ORB:TRB                         1      3       3    15.268 9.38e-05 ***
+X3PA:X3P:ORB:TRB                       1      0       0     0.041 0.839663    
+Ht:Wt:DRB:TRB                          1      0       0     0.678 0.410223    
+Ht:X3PA:DRB:TRB                        1      1       1     2.542 0.110890    
+Wt:X3PA:DRB:TRB                        1      0       0     2.080 0.149227    
+Ht:X3P:DRB:TRB                         1      0       0     1.340 0.246977    
+Wt:X3P:DRB:TRB                         1      2       2     8.296 0.003982 ** 
+X3PA:X3P:DRB:TRB                       1      1       1     4.191 0.040665 *  
+Ht:ORB:DRB:TRB                         1      2       2    10.725 0.001061 ** 
+Wt:ORB:DRB:TRB                         1      1       1     2.420 0.119797    
+X3PA:ORB:DRB:TRB                       1      1       1     4.177 0.041001 *  
+X3P:ORB:DRB:TRB                        1      0       0     1.854 0.173357    
+Ht:Wt:X3PA:AST                         1     20      20    90.986   2e-16 ***
+Ht:Wt:X3P:AST                          1      0       0     0.007 0.935480    
+Ht:X3PA:X3P:AST                        1      9       9    38.737 5.03e-10 ***
+Wt:X3PA:X3P:AST                        1      0       0     0.966 0.325724    
+Ht:Wt:ORB:AST                          1      1       1     2.267 0.132204    
+Ht:X3PA:ORB:AST                        1      2       2     7.872 0.005029 ** 
+Wt:X3PA:ORB:AST                        1      5       5    20.065 7.57e-06 ***
+Ht:X3P:ORB:AST                         1      0       0     0.271 0.602488    
+Wt:X3P:ORB:AST                         1      0       0     0.263 0.608206    
+X3PA:X3P:ORB:AST                       1      0       0     0.737 0.390597    
+Ht:Wt:DRB:AST                          1      1       1     4.589 0.032198 *  
+Ht:X3PA:DRB:AST                        1      2       2     8.048 0.004564 ** 
+Wt:X3PA:DRB:AST                        1      1       1     3.935 0.047320 *  
+Ht:X3P:DRB:AST                         1      0       0     2.090 0.148286    
+Wt:X3P:DRB:AST                         1      1       1     3.226 0.072525 .  
+X3PA:X3P:DRB:AST                       1      1       1     2.227 0.135639    
+Ht:ORB:DRB:AST                         1      1       1     2.263 0.132505    
+Wt:ORB:DRB:AST                         1      0       0     0.088 0.767086    
+X3PA:ORB:DRB:AST                       1      0       0     0.455 0.500129    
+X3P:ORB:DRB:AST                        1      0       0     0.601 0.438317    
+Ht:Wt:TRB:AST                          1      0       0     0.172 0.678182    
+Ht:X3PA:TRB:AST                        1      0       0     0.252 0.615721    
+Wt:X3PA:TRB:AST                        1      0       0     0.103 0.748301    
+Ht:X3P:TRB:AST                         1      0       0     1.500 0.220689    
+Wt:X3P:TRB:AST                         1      0       0     0.827 0.363191    
+X3PA:X3P:TRB:AST                       1      0       0     1.121 0.289747    
+Ht:ORB:TRB:AST                         1      0       0     1.336 0.247855    
+Wt:ORB:TRB:AST                         1      3       3    12.716 0.000364 ***
+X3PA:ORB:TRB:AST                       1      0       0     2.140 0.143543    
+X3P:ORB:TRB:AST                        1      0       0     0.118 0.730741    
+Ht:DRB:TRB:AST                         1      0       0     0.628 0.428206    
+Wt:DRB:TRB:AST                         1      1       1     2.316 0.128077    
+X3PA:DRB:TRB:AST                       1      1       1     6.149 0.013162 *  
+X3P:DRB:TRB:AST                        1      0       0     1.409 0.235291    
+ORB:DRB:TRB:AST                        1      0       0     2.133 0.144165    
+Ht:Wt:X3PA:BLK                         1      0       0     0.039 0.843388    
+Ht:Wt:X3P:BLK                          1      0       0     2.045 0.152723    
+Ht:X3PA:X3P:BLK                        1      0       0     0.001 0.972600    
+Wt:X3PA:X3P:BLK                        1      1       1     2.262 0.132635    
+Ht:Wt:ORB:BLK                          1     11      11    47.409 6.09e-12 ***
+Ht:X3PA:ORB:BLK                        1      0       0     0.034 0.853515    
+Wt:X3PA:ORB:BLK                        1      2       2     7.218 0.007229 ** 
+Ht:X3P:ORB:BLK                         1      0       0     1.004 0.316297    
+Wt:X3P:ORB:BLK                         1      0       0     0.007 0.931090    
+X3PA:X3P:ORB:BLK                       1      1       1     3.159 0.075520 .  
+Ht:Wt:DRB:BLK                          1      1       1     4.790 0.028643 *  
+Ht:X3PA:DRB:BLK                        1      0       0     1.497 0.221216    
+Wt:X3PA:DRB:BLK                        1      0       0     0.170 0.680438    
+Ht:X3P:DRB:BLK                         1      1       1     2.328 0.127090    
+Wt:X3P:DRB:BLK                         1      0       0     1.705 0.191621    
+X3PA:X3P:DRB:BLK                       1      0       0     1.945 0.163161    
+Ht:ORB:DRB:BLK                         1      4       4    17.880 2.37e-05 ***
+Wt:ORB:DRB:BLK                         1      2       2     8.142 0.004333 ** 
+X3PA:ORB:DRB:BLK                       1      0       0     1.920 0.165932    
+X3P:ORB:DRB:BLK                        1      1       1     2.759 0.096713 .  
+Ht:Wt:TRB:BLK                          1      0       0     0.628 0.428101    
+Ht:X3PA:TRB:BLK                        1      0       0     0.198 0.656236    
+Wt:X3PA:TRB:BLK                        1      1       1     4.061 0.043922 *  
+Ht:X3P:TRB:BLK                         1      0       0     0.207 0.649502    
+Wt:X3P:TRB:BLK                         1      0       0     0.018 0.891871    
+X3PA:X3P:TRB:BLK                       1      0       0     0.433 0.510509    
+Ht:ORB:TRB:BLK                         1      0       0     0.889 0.345709    
+Wt:ORB:TRB:BLK                         1      0       0     0.742 0.389147    
+X3PA:ORB:TRB:BLK                       1      0       0     1.040 0.307786    
+X3P:ORB:TRB:BLK                        1      0       0     0.408 0.523145    
+Ht:DRB:TRB:BLK                         1      0       0     1.074 0.300086    
+Wt:DRB:TRB:BLK                         1      1       1     4.837 0.027880 *  
+X3PA:DRB:TRB:BLK                       1      0       0     1.987 0.158701    
+X3P:DRB:TRB:BLK                        1      0       0     1.140 0.285636    
+ORB:DRB:TRB:BLK                        1      0       0     0.359 0.548905    
+Ht:Wt:AST:BLK                          1      0       0     1.781 0.182063    
+Ht:X3PA:AST:BLK                        1      0       0     0.616 0.432434    
+Wt:X3PA:AST:BLK                        1      1       1     5.544 0.018562 *  
+Ht:X3P:AST:BLK                         1      2       2    10.480 0.001210 ** 
+Wt:X3P:AST:BLK                         1      0       0     0.664 0.415184    
+X3PA:X3P:AST:BLK                       1      0       0     0.436 0.509262    
+Ht:ORB:AST:BLK                         1      1       1     2.950 0.085907 .  
+Wt:ORB:AST:BLK                         1      1       1     3.841 0.050040 .  
+X3PA:ORB:AST:BLK                       1      0       0     0.993 0.319149    
+X3P:ORB:AST:BLK                        1      1       1     5.597 0.018008 *  
+Ht:DRB:AST:BLK                         1      1       1     2.876 0.089963 .  
+Wt:DRB:AST:BLK                         1      0       0     0.010 0.920573    
+X3PA:DRB:AST:BLK                       1      0       0     0.003 0.955019    
+X3P:DRB:AST:BLK                        1      0       0     0.032 0.857525    
+ORB:DRB:AST:BLK                        1      0       0     0.995 0.318540    
+Ht:TRB:AST:BLK                         1      1       1     3.711 0.054081 .  
+Wt:TRB:AST:BLK                         1      1       1     5.572 0.018266 *  
+X3PA:TRB:AST:BLK                       1      0       0     0.564 0.452693    
+X3P:TRB:AST:BLK                        1      1       1     3.648 0.056164 .  
+ORB:TRB:AST:BLK                        1      0       0     0.308 0.578879    
+DRB:TRB:AST:BLK                        1      1       1     3.538 0.060004 .  
+Ht:Wt:X3PA:X3P:ORB                     1      1       1     3.765 0.052372 .  
+Ht:Wt:X3PA:X3P:DRB                     1      1       1     5.981 0.014479 *  
+Ht:Wt:X3PA:ORB:DRB                     1      4       4    18.008 2.22e-05 ***
+Ht:Wt:X3P:ORB:DRB                      1      0       0     0.212 0.645506    
+Ht:X3PA:X3P:ORB:DRB                    1      0       0     0.524 0.469136    
+Wt:X3PA:X3P:ORB:DRB                    1      1       1     5.813 0.015929 *  
+Ht:Wt:X3PA:X3P:TRB                     1      0       0     1.008 0.315508    
+Ht:Wt:X3PA:ORB:TRB                     1      0       0     0.747 0.387415    
+Ht:Wt:X3P:ORB:TRB                      1      0       0     0.148 0.700102    
+Ht:X3PA:X3P:ORB:TRB                    1      0       0     1.716 0.190272    
+Wt:X3PA:X3P:ORB:TRB                    1      0       0     0.610 0.434626    
+Ht:Wt:X3PA:DRB:TRB                     1      1       1     4.612 0.031780 *  
+Ht:Wt:X3P:DRB:TRB                      1      0       0     0.030 0.862168    
+Ht:X3PA:X3P:DRB:TRB                    1      0       0     1.110 0.292092    
+Wt:X3PA:X3P:DRB:TRB                    1      1       1     2.973 0.084710 .  
+Ht:Wt:ORB:DRB:TRB                      1      0       0     0.920 0.337619    
+Ht:X3PA:ORB:DRB:TRB                    1      1       1     5.989 0.014409 *  
+Wt:X3PA:ORB:DRB:TRB                    1      0       0     1.034 0.309186    
+Ht:X3P:ORB:DRB:TRB                     1      0       0     0.554 0.456549    
+Wt:X3P:ORB:DRB:TRB                     1      0       0     0.356 0.550642    
+X3PA:X3P:ORB:DRB:TRB                   1      1       1     2.996 0.083500 .  
+Ht:Wt:X3PA:X3P:AST                     1      4       4    18.854 1.42e-05 ***
+Ht:Wt:X3PA:ORB:AST                     1      3       3    13.400 0.000253 ***
+Ht:Wt:X3P:ORB:AST                      1      0       0     0.095 0.757908    
+Ht:X3PA:X3P:ORB:AST                    1      0       0     1.931 0.164631    
+Wt:X3PA:X3P:ORB:AST                    1      0       0     0.171 0.679167    
+Ht:Wt:X3PA:DRB:AST                     1      7       7    32.646 1.14e-08 ***
+Ht:Wt:X3P:DRB:AST                      1      1       1     3.761 0.052481 .  
+Ht:X3PA:X3P:DRB:AST                    1      0       0     0.020 0.888802    
+Wt:X3PA:X3P:DRB:AST                    1      0       0     0.204 0.651624    
+Ht:Wt:ORB:DRB:AST                      1      0       0     1.516 0.218300    
+Ht:X3PA:ORB:DRB:AST                    1      0       0     0.192 0.661245    
+Wt:X3PA:ORB:DRB:AST                    1      0       0     1.920 0.165859    
+Ht:X3P:ORB:DRB:AST                     1      0       0     2.151 0.142540    
+Wt:X3P:ORB:DRB:AST                     1      0       0     1.013 0.314168    
+X3PA:X3P:ORB:DRB:AST                   1      1       1     2.837 0.092136 .  
+Ht:Wt:X3PA:TRB:AST                     1      0       0     1.402 0.236443    
+Ht:Wt:X3P:TRB:AST                      1      0       0     0.003 0.955440    
+Ht:X3PA:X3P:TRB:AST                    1      0       0     0.432 0.511244    
+Wt:X3PA:X3P:TRB:AST                    1      0       0     0.277 0.598625    
+Ht:Wt:ORB:TRB:AST                      1      0       0     0.040 0.841983    
+Ht:X3PA:ORB:TRB:AST                    1      1       1     3.717 0.053893 .  
+Wt:X3PA:ORB:TRB:AST                    1      0       0     0.382 0.536554    
+Ht:X3P:ORB:TRB:AST                     1      0       0     0.853 0.355752    
+Wt:X3P:ORB:TRB:AST                     1      2       2     7.196 0.007320 ** 
+X3PA:X3P:ORB:TRB:AST                   1      1       1     3.566 0.058988 .  
+Ht:Wt:DRB:TRB:AST                      1      1       1     4.084 0.043314 *  
+Ht:X3PA:DRB:TRB:AST                    1      1       1     2.549 0.110401    
+Wt:X3PA:DRB:TRB:AST                    1      0       0     0.592 0.441752    
+Ht:X3P:DRB:TRB:AST                     1      0       0     0.093 0.760601    
+Wt:X3P:DRB:TRB:AST                     1      1       1     4.343 0.037196 *  
+X3PA:X3P:DRB:TRB:AST                   1      1       1     6.629 0.010045 *  
+Ht:ORB:DRB:TRB:AST                     1      0       0     0.350 0.554025    
+Wt:ORB:DRB:TRB:AST                     1      0       0     1.749 0.185982    
+X3PA:ORB:DRB:TRB:AST                   1      1       1     2.435 0.118694    
+X3P:ORB:DRB:TRB:AST                    1      0       0     0.321 0.570727    
+Ht:Wt:X3PA:X3P:BLK                     1      0       0     1.253 0.263066    
+Ht:Wt:X3PA:ORB:BLK                     1      1       1     5.139 0.023417 *  
+Ht:Wt:X3P:ORB:BLK                      1      0       0     0.380 0.537680    
+Ht:X3PA:X3P:ORB:BLK                    1      2       2    10.169 0.001432 ** 
+Wt:X3PA:X3P:ORB:BLK                    1      1       1     2.332 0.126793    
+Ht:Wt:X3PA:DRB:BLK                     1      0       0     0.003 0.953997    
+Ht:Wt:X3P:DRB:BLK                      1      1       1     4.192 0.040641 *  
+Ht:X3PA:X3P:DRB:BLK                    1      1       1     4.880 0.027190 *  
+Wt:X3PA:X3P:DRB:BLK                    1      0       0     0.274 0.600819    
+Ht:Wt:ORB:DRB:BLK                      1      1       1     4.007 0.045325 *  
+Ht:X3PA:ORB:DRB:BLK                    1      0       0     0.351 0.553684    
+Wt:X3PA:ORB:DRB:BLK                    1      0       0     0.748 0.387256    
+Ht:X3P:ORB:DRB:BLK                     1      1       1     2.269 0.132041    
+Wt:X3P:ORB:DRB:BLK                     1      0       0     0.395 0.529642    
+X3PA:X3P:ORB:DRB:BLK                   1      1       1     6.015 0.014202 *  
+Ht:Wt:X3PA:TRB:BLK                     1      0       0     0.128 0.720577    
+Ht:Wt:X3P:TRB:BLK                      1      0       0     0.076 0.782352    
+Ht:X3PA:X3P:TRB:BLK                    1      0       0     0.010 0.918569    
+Wt:X3PA:X3P:TRB:BLK                    1      0       0     1.192 0.275013    
+Ht:Wt:ORB:TRB:BLK                      1      0       0     0.859 0.354086    
+Ht:X3PA:ORB:TRB:BLK                    1      1       1     3.826 0.050499 .  
+Wt:X3PA:ORB:TRB:BLK                    1      0       0     0.839 0.359631    
+Ht:X3P:ORB:TRB:BLK                     1      1       1     2.509 0.113234    
+Wt:X3P:ORB:TRB:BLK                     1      0       0     1.090 0.296511    
+X3PA:X3P:ORB:TRB:BLK                   1      0       0     0.516 0.472720    
+Ht:Wt:DRB:TRB:BLK                      1      0       0     0.236 0.627244    
+Ht:X3PA:DRB:TRB:BLK                    1      0       0     0.000 0.987432    
+Wt:X3PA:DRB:TRB:BLK                    1      0       0     0.008 0.929091    
+Ht:X3P:DRB:TRB:BLK                     1      0       0     0.002 0.962965    
+Wt:X3P:DRB:TRB:BLK                     1      0       0     0.772 0.379470    
+X3PA:X3P:DRB:TRB:BLK                   1      0       0     1.787 0.181354    
+Ht:ORB:DRB:TRB:BLK                     1      0       0     0.785 0.375724    
+Wt:ORB:DRB:TRB:BLK                     1      1       1     4.876 0.027255 *  
+X3PA:ORB:DRB:TRB:BLK                   1      0       0     0.658 0.417279    
+X3P:ORB:DRB:TRB:BLK                    1      0       0     0.477 0.490007    
+Ht:Wt:X3PA:AST:BLK                     1      3       3    14.702 0.000127 ***
+Ht:Wt:X3P:AST:BLK                      1      0       0     0.108 0.742029    
+Ht:X3PA:X3P:AST:BLK                    1      1       1     4.803 0.028438 *  
+Wt:X3PA:X3P:AST:BLK                    1      1       1     3.463 0.062791 .  
+Ht:Wt:ORB:AST:BLK                      1      3       3    14.760 0.000123 ***
+Ht:X3PA:ORB:AST:BLK                    1      1       1     3.952 0.046847 *  
+Wt:X3PA:ORB:AST:BLK                    1      0       0     0.029 0.865843    
+Ht:X3P:ORB:AST:BLK                     1      0       0     0.387 0.534049    
+Wt:X3P:ORB:AST:BLK                     1      0       0     2.038 0.153487    
+X3PA:X3P:ORB:AST:BLK                   1      1       1     4.644 0.031178 *  
+Ht:Wt:DRB:AST:BLK                      1      0       0     1.455 0.227824    
+Ht:X3PA:DRB:AST:BLK                    1      0       0     0.573 0.449273    
+Wt:X3PA:DRB:AST:BLK                    1      0       0     0.118 0.730756    
+Ht:X3P:DRB:AST:BLK                     1      0       0     0.407 0.523628    
+Wt:X3P:DRB:AST:BLK                     1      0       0     0.000 0.993199    
+X3PA:X3P:DRB:AST:BLK                   1      0       0     0.306 0.580217    
+Ht:ORB:DRB:AST:BLK                     1      0       0     1.758 0.184900    
+Wt:ORB:DRB:AST:BLK                     1      3       3    13.327 0.000263 ***
+X3PA:ORB:DRB:AST:BLK                   1      0       0     0.350 0.554391    
+X3P:ORB:DRB:AST:BLK                    1      0       0     0.920 0.337537    
+Ht:Wt:TRB:AST:BLK                      1      0       0     0.592 0.441707    
+Ht:X3PA:TRB:AST:BLK                    1      0       0     1.298 0.254573    
+Wt:X3PA:TRB:AST:BLK                    1      0       0     0.881 0.348057    
+Ht:X3P:TRB:AST:BLK                     1      3       3    12.827 0.000343 ***
+Wt:X3P:TRB:AST:BLK                     1      0       0     0.001 0.981766    
+X3PA:X3P:TRB:AST:BLK                   1      0       0     0.183 0.669120    
+Ht:ORB:TRB:AST:BLK                     1      0       0     0.213 0.644250    
+Wt:ORB:TRB:AST:BLK                     1      1       1     5.699 0.016996 *  
+X3PA:ORB:TRB:AST:BLK                   1      1       1     2.749 0.097333 .  
+X3P:ORB:TRB:AST:BLK                    1      3       3    12.989 0.000315 ***
+Ht:DRB:TRB:AST:BLK                     1      0       0     1.958 0.161797    
+Wt:DRB:TRB:AST:BLK                     1      0       0     0.197 0.657161    
+X3PA:DRB:TRB:AST:BLK                   1      0       0     0.261 0.609342    
+X3P:DRB:TRB:AST:BLK                    1      0       0     0.825 0.363711    
+ORB:DRB:TRB:AST:BLK                    1      1       1     3.116 0.077546 .  
+Ht:Wt:X3PA:X3P:ORB:DRB                 1      0       0     0.523 0.469372    
+Ht:Wt:X3PA:X3P:ORB:TRB                 1      0       0     0.812 0.367610    
+Ht:Wt:X3PA:X3P:DRB:TRB                 1      0       0     2.079 0.149375    
+Ht:Wt:X3PA:ORB:DRB:TRB                 1      0       0     1.036 0.308790    
+Ht:Wt:X3P:ORB:DRB:TRB                  1      0       0     0.452 0.501485    
+Ht:X3PA:X3P:ORB:DRB:TRB                1      0       0     0.426 0.514174    
+Wt:X3PA:X3P:ORB:DRB:TRB                1      1       1     4.613 0.031756 *  
+Ht:Wt:X3PA:X3P:ORB:AST                 1      1       1     5.461 0.019468 *  
+Ht:Wt:X3PA:X3P:DRB:AST                 1      2       2     7.249 0.007106 ** 
+Ht:Wt:X3PA:ORB:DRB:AST                 1      0       0     1.912 0.166747    
+Ht:Wt:X3P:ORB:DRB:AST                  1      1       1     2.962 0.085250 .  
+Ht:X3PA:X3P:ORB:DRB:AST                1      0       0     1.352 0.244927    
+Wt:X3PA:X3P:ORB:DRB:AST                1      0       0     0.630 0.427390    
+Ht:Wt:X3PA:X3P:TRB:AST                 1      1       1     2.978 0.084407 .  
+Ht:Wt:X3PA:ORB:TRB:AST                 1      0       0     0.158 0.690756    
+Ht:Wt:X3P:ORB:TRB:AST                  1      0       0     0.150 0.698201    
+Ht:X3PA:X3P:ORB:TRB:AST                1      0       0     0.857 0.354687    
+Wt:X3PA:X3P:ORB:TRB:AST                1      0       0     1.003 0.316552    
+Ht:Wt:X3PA:DRB:TRB:AST                 1      0       0     0.122 0.726673    
+Ht:Wt:X3P:DRB:TRB:AST                  1      0       0     0.014 0.906367    
+Ht:X3PA:X3P:DRB:TRB:AST                1      0       0     1.772 0.183127    
+Wt:X3PA:X3P:DRB:TRB:AST                1      0       0     0.763 0.382530    
+Ht:Wt:ORB:DRB:TRB:AST                  1      0       0     0.057 0.811579    
+Ht:X3PA:ORB:DRB:TRB:AST                1      0       0     0.110 0.740382    
+Wt:X3PA:ORB:DRB:TRB:AST                1      0       0     0.032 0.857058    
+Ht:X3P:ORB:DRB:TRB:AST                 1      1       1     5.040 0.024786 *  
+Wt:X3P:ORB:DRB:TRB:AST                 1      0       0     1.494 0.221581    
+X3PA:X3P:ORB:DRB:TRB:AST               1      0       0     0.658 0.417321    
+Ht:Wt:X3PA:X3P:ORB:BLK                 1      0       0     0.172 0.678285    
+Ht:Wt:X3PA:X3P:DRB:BLK                 1      0       0     0.049 0.824982    
+Ht:Wt:X3PA:ORB:DRB:BLK                 1      1       1     2.795 0.094572 .  
+Ht:Wt:X3P:ORB:DRB:BLK                  1      0       0     0.532 0.465854    
+Ht:X3PA:X3P:ORB:DRB:BLK                1      0       0     0.139 0.708871    
+Wt:X3PA:X3P:ORB:DRB:BLK                1      0       0     0.637 0.424968    
+Ht:Wt:X3PA:X3P:TRB:BLK                 1      0       0     0.224 0.636083    
+Ht:Wt:X3PA:ORB:TRB:BLK                 1      0       0     0.466 0.494691    
+Ht:Wt:X3P:ORB:TRB:BLK                  1      0       0     1.029 0.310417    
+Ht:X3PA:X3P:ORB:TRB:BLK                1      0       0     0.027 0.869658    
+Wt:X3PA:X3P:ORB:TRB:BLK                1      0       0     1.097 0.295043    
+Ht:Wt:X3PA:DRB:TRB:BLK                 1      1       1     2.788 0.094998 .  
+Ht:Wt:X3P:DRB:TRB:BLK                  1      0       0     0.893 0.344761    
+Ht:X3PA:X3P:DRB:TRB:BLK                1      2       2     8.640 0.003296 ** 
+Wt:X3PA:X3P:DRB:TRB:BLK                1      1       1     3.783 0.051812 .  
+Ht:Wt:ORB:DRB:TRB:BLK                  1      0       0     0.001 0.972449    
+Ht:X3PA:ORB:DRB:TRB:BLK                1      0       0     0.002 0.964347    
+Wt:X3PA:ORB:DRB:TRB:BLK                1      0       0     0.829 0.362609    
+Ht:X3P:ORB:DRB:TRB:BLK                 1      2       2     6.835 0.008949 ** 
+Wt:X3P:ORB:DRB:TRB:BLK                 1      0       0     2.017 0.155589    
+X3PA:X3P:ORB:DRB:TRB:BLK               1      0       0     0.219 0.639783    
+Ht:Wt:X3PA:X3P:AST:BLK                 1      0       0     0.503 0.478397    
+Ht:Wt:X3PA:ORB:AST:BLK                 1      0       0     1.173 0.278851    
+Ht:Wt:X3P:ORB:AST:BLK                  1      0       0     0.804 0.369794    
+Ht:X3PA:X3P:ORB:AST:BLK                1      0       0     1.906 0.167408    
+Wt:X3PA:X3P:ORB:AST:BLK                1      0       0     1.902 0.167911    
+Ht:Wt:X3PA:DRB:AST:BLK                 1      0       0     0.049 0.824434    
+Ht:Wt:X3P:DRB:AST:BLK                  1      0       0     0.926 0.336007    
+Ht:X3PA:X3P:DRB:AST:BLK                1      0       0     0.326 0.567933    
+Wt:X3PA:X3P:DRB:AST:BLK                1      0       0     1.527 0.216556    
+Ht:Wt:ORB:DRB:AST:BLK                  1      2       2     7.468 0.006290 ** 
+Ht:X3PA:ORB:DRB:AST:BLK                1      0       0     1.347 0.245841    
+Wt:X3PA:ORB:DRB:AST:BLK                1      0       0     0.246 0.619941    
+Ht:X3P:ORB:DRB:AST:BLK                 1      0       0     1.898 0.168384    
+Wt:X3P:ORB:DRB:AST:BLK                 1      0       0     0.139 0.709574    
+X3PA:X3P:ORB:DRB:AST:BLK               1      1       1     2.873 0.090118 .  
+Ht:Wt:X3PA:TRB:AST:BLK                 1      0       0     0.152 0.696411    
+Ht:Wt:X3P:TRB:AST:BLK                  1      0       0     0.743 0.388831    
+Ht:X3PA:X3P:TRB:AST:BLK                1      0       0     0.534 0.464826    
+Wt:X3PA:X3P:TRB:AST:BLK                1      0       0     1.506 0.219793    
+Ht:Wt:ORB:TRB:AST:BLK                  1      0       0     0.342 0.558853    
+Ht:X3PA:ORB:TRB:AST:BLK                1      0       0     0.768 0.380973    
+Wt:X3PA:ORB:TRB:AST:BLK                1      0       0     0.693 0.405223    
+Ht:X3P:ORB:TRB:AST:BLK                 1      0       0     0.004 0.947364    
+Wt:X3P:ORB:TRB:AST:BLK                 1      1       1     6.562 0.010430 *  
+X3PA:X3P:ORB:TRB:AST:BLK               1      1       1     3.937 0.047264 *  
+Ht:Wt:DRB:TRB:AST:BLK                  1      0       0     0.118 0.731028    
+Ht:X3PA:DRB:TRB:AST:BLK                1      1       1     2.383 0.122687    
+Wt:X3PA:DRB:TRB:AST:BLK                1      1       1     2.600 0.106888    
+Ht:X3P:DRB:TRB:AST:BLK                 1      1       1     4.476 0.034393 *  
+Wt:X3P:DRB:TRB:AST:BLK                 1      0       0     0.051 0.820865    
+X3PA:X3P:DRB:TRB:AST:BLK               1      0       0     1.168 0.279750    
+Ht:ORB:DRB:TRB:AST:BLK                 1      0       0     0.175 0.675947    
+Wt:ORB:DRB:TRB:AST:BLK                 1      0       0     1.464 0.226360    
+X3PA:ORB:DRB:TRB:AST:BLK               1      0       0     1.032 0.309605    
+X3P:ORB:DRB:TRB:AST:BLK                1      0       0     0.160 0.689572    
+Ht:Wt:X3PA:X3P:ORB:DRB:TRB             1      0       0     0.241 0.623274    
+Ht:Wt:X3PA:X3P:ORB:DRB:AST             1      1       1     2.799 0.094373 .  
+Ht:Wt:X3PA:X3P:ORB:TRB:AST             1      0       0     0.873 0.350025    
+Ht:Wt:X3PA:X3P:DRB:TRB:AST             1      1       1     2.796 0.094555 .  
+Ht:Wt:X3PA:ORB:DRB:TRB:AST             1      1       1     3.414 0.064666 .  
+Ht:Wt:X3P:ORB:DRB:TRB:AST              1      0       0     0.915 0.338802    
+Ht:X3PA:X3P:ORB:DRB:TRB:AST            1      0       0     0.190 0.662830    
+Wt:X3PA:X3P:ORB:DRB:TRB:AST            1      1       1     2.272 0.131761    
+Ht:Wt:X3PA:X3P:ORB:DRB:BLK             1      0       0     0.081 0.775710    
+Ht:Wt:X3PA:X3P:ORB:TRB:BLK             1      0       0     1.204 0.272466    
+Ht:Wt:X3PA:X3P:DRB:TRB:BLK             1      0       0     0.022 0.881019    
+Ht:Wt:X3PA:ORB:DRB:TRB:BLK             1      1       1     3.766 0.052330 .  
+Ht:Wt:X3P:ORB:DRB:TRB:BLK              1      0       0     0.622 0.430414    
+Ht:X3PA:X3P:ORB:DRB:TRB:BLK            1      0       0     0.623 0.430112    
+Wt:X3PA:X3P:ORB:DRB:TRB:BLK            1      0       0     0.001 0.979168    
+Ht:Wt:X3PA:X3P:ORB:AST:BLK             1      0       0     0.005 0.945211    
+Ht:Wt:X3PA:X3P:DRB:AST:BLK             1      0       0     0.048 0.827028    
+Ht:Wt:X3PA:ORB:DRB:AST:BLK             1      1       1     4.365 0.036704 *  
+Ht:Wt:X3P:ORB:DRB:AST:BLK              1      1       1     5.410 0.020035 *  
+Ht:X3PA:X3P:ORB:DRB:AST:BLK            1      0       0     1.225 0.268399    
+Wt:X3PA:X3P:ORB:DRB:AST:BLK            1      0       0     0.614 0.433232    
+Ht:Wt:X3PA:X3P:TRB:AST:BLK             1      0       0     0.287 0.592133    
+Ht:Wt:X3PA:ORB:TRB:AST:BLK             1      0       0     0.165 0.684672    
+Ht:Wt:X3P:ORB:TRB:AST:BLK              1      0       0     0.043 0.836423    
+Ht:X3PA:X3P:ORB:TRB:AST:BLK            1      0       0     0.871 0.350827    
+Wt:X3PA:X3P:ORB:TRB:AST:BLK            1      0       0     0.071 0.790300    
+Ht:Wt:X3PA:DRB:TRB:AST:BLK             1      0       0     0.359 0.549234    
+Ht:Wt:X3P:DRB:TRB:AST:BLK              1      1       1     2.576 0.108525    
+Ht:X3PA:X3P:DRB:TRB:AST:BLK            1      0       0     0.039 0.844158    
+Wt:X3PA:X3P:DRB:TRB:AST:BLK            1      0       0     0.122 0.727259    
+Ht:Wt:ORB:DRB:TRB:AST:BLK              1      0       0     1.738 0.187463    
+Ht:X3PA:ORB:DRB:TRB:AST:BLK            1      0       0     1.396 0.237343    
+Wt:X3PA:ORB:DRB:TRB:AST:BLK            1      0       0     1.530 0.216113    
+Ht:X3P:ORB:DRB:TRB:AST:BLK             1      1       1     2.419 0.119891    
+Wt:X3P:ORB:DRB:TRB:AST:BLK             1      0       0     0.068 0.794101    
+X3PA:X3P:ORB:DRB:TRB:AST:BLK           1      0       0     1.383 0.239662    
+Ht:Wt:X3PA:X3P:ORB:DRB:TRB:AST         1      3       3    12.746 0.000358 ***
+Ht:Wt:X3PA:X3P:ORB:DRB:TRB:BLK         1      0       0     1.646 0.199567    
+Ht:Wt:X3PA:X3P:ORB:DRB:AST:BLK         1      2       2     7.174 0.007409 ** 
+Ht:Wt:X3PA:X3P:ORB:TRB:AST:BLK         1      0       0     0.597 0.439572    
+Ht:Wt:X3PA:X3P:DRB:TRB:AST:BLK         1      0       0     0.117 0.732478    
+Ht:Wt:X3PA:ORB:DRB:TRB:AST:BLK         1      1       1     2.772 0.095953 .  
+Ht:Wt:X3P:ORB:DRB:TRB:AST:BLK          1      0       0     0.620 0.431212    
+Ht:X3PA:X3P:ORB:DRB:TRB:AST:BLK        1      0       0     0.648 0.420700    
+Wt:X3PA:X3P:ORB:DRB:TRB:AST:BLK        1      0       0     0.167 0.682364    
+Ht:Wt:X3PA:X3P:ORB:DRB:TRB:AST:BLK     1      0       0     0.260 0.609898    

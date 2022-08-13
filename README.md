@@ -156,14 +156,29 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
   
 #### Work done
   - Completed EDA
+  - [An amazing rticle about feature selecting](https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/)
+  - Watched the lecture
 #### Problems faced
   - Hard to decide which feature to choose, since I am afraid of overfitting the model
   - R is tough
 #### Next steps
   - Completing some more assignments
-  - Watched the lecture
 #### Brief list on notes for this week
-  - None
+  * **Feature Selection**: Select a subset of input features from the dataset
+    * **Unsupervised**: Do not use the target variable (e.g. remove redundant variables)
+      * Correlation
+    * **Supervised**: Use the target variable (e.g. remove irrelevant variables)
+      * **Wrapper**: Search for well-performing subsets of features
+        * [Recursive Feature Elimination](https://machinelearningmastery.com/rfe-feature-selection-in-python/)
+      * **Filter**: Select subsets of features based on their relationship with the target
+        * Statistical Methods (i.e. p-value)
+        * Feature Importance Methods
+      * **Intrinsic**: Algorithms that perform automatic feature selection during training
+        * Decision Trees
+  * **Dimensionality Reduction**: Project input data into a lower-dimensional feature space (i.e. PCA)
+
+  
+
 </details>
 
 </details>
