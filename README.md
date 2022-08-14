@@ -37,6 +37,8 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
   - `url` - Scheme and domains of the main URL.
   - `season_url` - Season URL for adding year and particular team to get page with data tables.
 ---
+`EDA.ipynb`
+  Exploratory Data Analysis for the collected data performed in R. As a result - list of the best features to be fitted into the model + some insights that help to choose it.
 
 </details>
 <br>
@@ -45,7 +47,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 7](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-7)**.
+Current progress: **[Week 8](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-8)**.
 
 <details>
   <summary>
@@ -224,6 +226,25 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
 
 <details>
 <summary><h3>Week 7</h3></summary>
+  Working with Dimensionality.
+  
+#### Work done
+  - Watched the lecture.
+  - Completed test 1.
+#### Problems faced
+  - R is tough
+  - I faced misunderstanding, when my LOGIT performed way better that I expected. Besides, the type of data I fitted was described in the ISLR as non aplicable for LOGIT. wtf.
+#### Next steps
+  - HW 1
+  - ISLR chptr 6
+#### Brief list on notes for this week
+  - Not yet
+</details>
+
+
+
+<details>
+<summary><h3>Week 8</h3></summary>
   soon
   
 #### Work done
