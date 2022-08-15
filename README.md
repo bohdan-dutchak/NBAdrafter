@@ -47,7 +47,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 8](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-8)**.
+Current progress: **[Week 9](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-9)**.
 
 <details>
   <summary>
@@ -245,7 +245,30 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
 
 <details>
 <summary><h3>Week 8</h3></summary>
-  soon
+  Model fitting.
+  
+#### Work done
+  - Completed HW1
+  - [Article that saved my life (about bias and variance)](https://www.analyticsvidhya.com/blog/2020/12/a-measure-of-bias-and-variance-an-experiment/)
+  - I feel like I got way better with using R   B)
+#### Problems faced
+  - R is tough
+  - Somehow my LOGIT had zero bias -_-
+#### Next steps
+  - HW2
+  - Test 2
+  - ISLR chprt 6
+#### Brief list on notes for this week
+  - OvO, OvR ROC curves for multinomial classifications.
+  - model bias = mean(avg(model_trained_on_population(test) - model_trained_on_sample(test)))
+  - model variance var(model_trained_on_population(test), model_trained_on_sample(test))
+</details>
+
+
+
+<details>
+<summary><h3>Week 9</h3></summary>
+  Soon
   
 #### Work done
   - 
@@ -256,6 +279,8 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
 #### Brief list on notes for this week
   - 
 </details>
+
+
 
 </details>
 :blue_square::blue_square::blue_square::blue_square:<br>
