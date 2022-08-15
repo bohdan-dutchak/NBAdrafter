@@ -47,7 +47,7 @@ Some of the parts will be written on Python3. The reasons of it is the variety o
 
 ## Weekly progress
 I like to keep my progress together. Also, since I messed up with deadlines, I decided to handle my progress here. Also, it can be formatted into a fancy page.\
-Current progress: **[Week 9](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-9)**.
+Current progress: **[Week 11](https://github.com/bohdan-dutchak/NBAdrafter/blob/main/README.md#week-11)**.
 
 <details>
   <summary>
@@ -269,18 +269,56 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
 
 <details>
 <summary><h3>Week 9</h3></summary>
-  Soon
+  Cross validation, SVM, and other tools for working with dimensions. Almost done with deadlines.
   
 #### Work done
-  - 
+  - Completed HW 2
+  - ISLT chptr 6
 #### Problems faced
   - R is tough
+  - Some unexplainable results in my models.
 #### Next steps
-  - 
+  - Last assignment (test 2)
+#### Brief list on notes for this week
+  - I don't have time, may be later
+</details>
+
+
+
+<details>
+<summary><h3>Week 10</h3></summary>
+  Yep. I'm done with the deadlines.
+  
+#### Work done
+  - Completed (last) Test 2
+  - ISLT chptr 8
+  - Watched lectures for week 9, 10
+#### Problems faced
+  - R is tough
+  - Didn't actually have enough time to fully complete last test, but that is alright...
+#### Next steps
+  - Read the book and finish leactures.
+#### Brief list on notes for this week
+  - I'm really tired rn, may be later.
+</details>
+
+
+
+<details>
+<summary><h3>Week 11</h3></summary>
+  I need a brief break,
+  
+#### Work done
+  - TBD
+#### Problems faced
+  - R is tough
+  - Keep postponing everything till the last moment
+#### Next steps
+  - Read the book and finish leactures.
+  - Fill the Description part
 #### Brief list on notes for this week
   - 
 </details>
-
 
 
 </details>
