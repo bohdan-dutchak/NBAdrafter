@@ -289,7 +289,7 @@ summary(logit.fit)</code></pre>
 ## AIC: 11339.17</code></pre>
 <pre class="r"><code>population.logit &lt;- multinom(Pos ~ ., data = data)</code></pre>
 
-<pre class="r"><code>population.pred &lt;- logit.fit %&gt;% predict(test.X)</code></pre>
+<pre class="r"><code>population.pred &lt;- population.logit %&gt;% predict(test.X)</code></pre>
 <p>Attention, the block belows computes ROC curves and AUC. It contains a lot of code and takes a lot of kernel memory to process, so I did it only for LOGIT. For the same reason I chose One VS Rest approach in order to save time and space. Here I got only 5 plots, but OvO approach would require 20.</p>
 <div id="roc-curve-and-auc" class="section level3">
 <h3>ROC Curve and AUC</h3>
@@ -884,7 +884,7 @@ message(&quot;Accuracy: &quot;, round(stats$accuracy,4)*100, &quot;%\n&quot;)</c
 </div>
 <div id="results" class="section level2">
 <h2>Results</h2>
-<p>For this data KNN (k=7) shows the best results, but generally I think there are possible cases, where other models will lead. Anyways I am glad to get such results, since after running ANOVA in my EDA I was afraid to only one prediction into the model. Also I would like to mention that somehow my LOGIT has Bias = 0. Logit is not very flexible model, so it tends to have high bias, but what happened here - I have no idea, but I like it &lt;3</p>
+<p>For this data KNN (k=7) shows the best results, but generally I think there are possible cases, where other models will lead. Anyways I am glad to get such results, since after running ANOVA in my EDA I was afraid to only one prediction into the model.</p>
 <p>Since the accuracies are close, so the variances.</p>
 <p>There is no reason to commend Specificity and Sensitivity since my classes are not ordered, and I am not afraid to get prediction of +- 1 class. Besides, many players switch positions from season to season. So errors here are not crucial, it is not some heart decease data.</p>
 <pre class="r"><code>results &lt;- data.frame(
@@ -896,7 +896,7 @@ message(&quot;Accuracy: &quot;, round(stats$accuracy,4)*100, &quot;%\n&quot;)</c
 results</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Model"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Accuracy"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["Bias"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["Variance"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"Logit","2":"0.7488","3":"0.000000000","4":"2.064605"},{"1":"KNN","2":"0.7619","3":"0.081543183","4":"2.028007"},{"1":"Decision Tree","2":"0.7387","3":"0.136343709","4":"1.983488"},{"1":"SVM","2":"0.7470","3":"0.007014467","4":"2.069484"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":["Model"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Accuracy"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["Bias"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["Variance"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"Logit","2":"0.7488","3":"0.008768084","4":"2.064605"},{"1":"KNN","2":"0.7619","3":"0.081543183","4":"2.028007"},{"1":"Decision Tree","2":"0.7387","3":"0.136343709","4":"1.983488"},{"1":"SVM","2":"0.7470","3":"0.007014467","4":"2.069484"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
 </div>

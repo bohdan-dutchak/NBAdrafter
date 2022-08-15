@@ -251,6 +251,7 @@ Anyways, it is about the LOGIT, LDA, QDA, KNN and NBayes.
   - Completed HW1
   - [Article that saved my life (about bias and variance)](https://www.analyticsvidhya.com/blog/2020/12/a-measure-of-bias-and-variance-an-experiment/)
   - I feel like I got way better with using R   B)
+  - [Cool code template for future](https://github.com/ranasingh-gkp/Machine-Learning/blob/master/New%20algorithms%20in%20machine%20learning/logistic%20regression/multinomial-logistic-regression.R)
 #### Problems faced
   - R is tough
   - Somehow my LOGIT had zero bias -_-
